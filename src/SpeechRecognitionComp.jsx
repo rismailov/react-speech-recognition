@@ -38,9 +38,7 @@ export const SpeechRecognitionComp = ({ variant = 'default' }) => {
 
                 {variant === 'default' ? (
                     <>
-                        <button onClick={SpeechRecognition.startListening}>
-                            Start
-                        </button>
+                        <button onClick={startListening}>Start</button>
 
                         <button onClick={SpeechRecognition.stopListening}>
                             Stop
